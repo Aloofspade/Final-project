@@ -1,9 +1,10 @@
-const home = () => {
-    {Home && <div className="home">
+const HomePage = () => {
+    <div className="home">
         home
-    </div>}
-    {Daily && <div className="daily">
-        daily
-    </div>}
+        <div id = "bottom">
+            <button id = "next"></button>
+        </div>
+    </div>
 };
-export default home;
+
+export default HomePage;
