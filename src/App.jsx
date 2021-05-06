@@ -5,26 +5,6 @@ function App() {
   return (
     <div className="App">
       <>
-        <div className="App">
-          <nav>
-            <ul>
-              <li onClick={() => {
-                setHome(true);
-                setDaily(false)
-              }}>stuff</li>
-              <li onClick={() => {
-                setHome(false)
-                setDaily(true)
-                }}>stuff</li>
-            </ul>
-          </nav>
-          {Home && <div className="home">
-            home
-          </div>}
-          {Daily && <div className="daily">
-            daily
-    </div>}
-        </div>
       </>
     </div>
   );
