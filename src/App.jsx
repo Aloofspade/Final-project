@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <>
-      {Home && <HomePage  onClick={() => {setHome(false), setDaily(true)}}/>}
+        {Home && <HomePage onClick={() => {setHome(false), setDaily(true)}} />}
       </>
     </div>
   );
